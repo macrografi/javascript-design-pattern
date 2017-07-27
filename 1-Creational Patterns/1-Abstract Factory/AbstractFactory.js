@@ -3,7 +3,7 @@ function Iphone(name) {
     this.name = name;
 
     this.model = function () {
-        log.add("Iphone : " + this.name)
+        log.add("Iphone : " + this.name) 
     }
 }
 
