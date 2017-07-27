@@ -1,3 +1,4 @@
+//my iphone method. This is say model name.
 function Iphone(name) {
     this.name = name;
 
@@ -6,6 +7,7 @@ function Iphone(name) {
     }
 }
 
+//my iphone factory method. This is create new iphone.
 function IphoneFactory() {
     this.create = function (name) {
         return new Iphone(name);
@@ -26,11 +28,14 @@ var log = (function () {
     }
 })();
 
+//run function
 function run() {
     var applestore = [];
     var iphoneFactory = new IphoneFactory();
 
     applestore.push(iphoneFactory.create('6s'));
+    applestore.push(iphoneFactory.create('6s plus'));
+    applestore.push(iphoneFactory.create('5'));
 
     for (var i = 0, len = applestore.length; i < len; i++) {
         applestore[i].model();
