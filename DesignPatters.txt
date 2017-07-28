@@ -1,17 +1,17 @@
 Nesne tabanlı dillerde bir uygulama geliştirirken karşılaşılan sorunlara çözüm getiren kalıplardır.
 Avantajları bir işin geliştirme süresini azaltır temiz ve akıcı bir kod olur.
 
-Creatinal Patterns (Kurucu Desenler)
-Nesnelerin oluşturulması ve yönetilmesi ile ilgili desenlerdir.
+// Creatinal Patterns (Kurucu Desenler)
+// Nesnelerin oluşturulması ve yönetilmesi ile ilgili desenlerdir.
 
-Singleton: Uygulamanın yaşam süresince bir nesnenin bir kez oluşturulmasını sağlar.
 Abstract Factory: Birbirleri ile ilişkili sınıfların oluşturulmasını düzenler.
 Builder: Biden fazla parçadan oluşan nesnelerin üretilmesinden sorumludur.
 Factory Method: Aynı arayüzü kullanan nesnelerin üretiminden sorumludur.
 Prototype: Var olan nesnelerin kopyasının üretiminden sorumludur.
+Singleton: Uygulamanın yaşam süresince bir nesnenin bir kez oluşturulmasını sağlar.
 
-Behavioral Patterns (Davranışsal Desenler)
-Birden fazla sınıfın bir işi yerine getirirken nasıl davranacağını belirleyen desenlerdir.
+// Behavioral Patterns (Davranışsal Desenler)
+// Birden fazla sınıfın bir işi yerine getirirken nasıl davranacağını belirleyen desenlerdir.
 
 Chain of responsibility: Bir isteğin belli sınıflar içinde gezdirilerek ilgili sınıfın işlem yapmasını yönetir.
 Command: İşlemlerin nesne haline getirilip başka bir nesne(invoker) üzerinden tetiklendiği bir tasarım desenidir.
@@ -25,8 +25,8 @@ Strategy: Bir işlemin birden fazla şekilde gerçekleştirile bilineceği durum
 Template method:Bir algoritmanın adımlarının abstract sınıfta tanımlanarak farklı adımların concrete sınıflarında overwrite edilip çalıştırılmasını düzenler.
 Visitor: Uygulamada ki sınıflara yeni metotlar eklenmesini düzenler.
 
-Structural Patterns (Yapısal Desenler):  
-Nesnelerin birbirleri ile olan ilişkilerini düzenleyen desenlerdir.
+// Structural Patterns (Yapısal Desenler):  
+// Nesnelerin birbirleri ile olan ilişkilerini düzenleyen desenlerdir.
 
 Adapter: Uygulamada ki bir yapıya dışarıdaki bir yapıyı uygulamayı düzenler.
 Bridge: Nesnelerin modelleme ve uygulanmasını ayrı sınıf hiyerarşilerinde tanımlanmasını düzenler.

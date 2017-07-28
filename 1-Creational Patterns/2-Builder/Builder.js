@@ -3,6 +3,7 @@ function Iphone() {
     this.headphone = "";
     this.case = "";
 
+    //this product add properties
     this.addProperties = function () {
         this.charger = "Avaiable";
         this.headphone = "Avaiable";
